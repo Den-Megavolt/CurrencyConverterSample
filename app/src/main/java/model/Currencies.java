@@ -1,9 +1,5 @@
 package model;
 
-import android.support.annotation.StringRes;
-
-import com.example.dkotov.electroluxtest.R;
-
 /**
  * Created by dkotov on 20-Sep-17.
  */

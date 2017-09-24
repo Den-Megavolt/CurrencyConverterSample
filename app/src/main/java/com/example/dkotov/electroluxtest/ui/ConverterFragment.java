@@ -27,17 +27,12 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.HashMap;
-import java.util.List;
 
 import model.Currencies;
 import model.MessageEvent;
-import model.Rate;
 import util.RatesRetriever;
-
-import static java.lang.StrictMath.round;
 
 
 /**
@@ -59,8 +54,6 @@ public class ConverterFragment extends Fragment {
     private Spinner origCurrencySpinner;
     private Spinner convCurrencySpinner;
     private ProgressBar mProgressBar;
-
-    private List<Rate> rates;
 
     //Default base for retrieve rates if USD
     private String currencyCode;

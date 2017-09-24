@@ -5,14 +5,11 @@ import android.util.Log;
 
 import org.greenrobot.eventbus.EventBus;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 import client.API;
 import client.ApiClient;
 import model.MessageEvent;
-import model.Rate;
 import model.RateResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
